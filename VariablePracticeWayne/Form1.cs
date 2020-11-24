@@ -65,11 +65,11 @@ namespace VariablePracticeWayne
             textLabel.Text += $"\n\nTendered:";
             textLabel.Text += $"\nChange";
 
-            costLabel.Text = $"\n\n{shirtCost}";
-            costLabel.Text += $"\n\n{taxAmount}";
-            costLabel.Text += $"\n{totalCharge}";
-            costLabel.Text += $"\n\n{amountPaid}";
-            costLabel.Text += $"\n{changeDue}";
+            costLabel.Text = $"\n\n{shirtCost.ToString("C")}";
+            costLabel.Text += $"\n\n{taxAmount.ToString("C")}";
+            costLabel.Text += $"\n{totalCharge.ToString("C")}";
+            costLabel.Text += $"\n\n{amountPaid.ToString("C")}";
+            costLabel.Text += $"\n{changeDue.ToString("C")}";
         }
     }
 }
